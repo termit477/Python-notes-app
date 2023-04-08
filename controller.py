@@ -50,7 +50,8 @@ def run():
             view.show_found(result)
 
         elif mode == '3':   # Вывод базы
-            print(view.get_base())
+            base = logger.get_base()
+            view.show_all_info(base)
 
         elif mode == '4':   # Редактирование
             control_edit_note()

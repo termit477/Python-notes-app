@@ -29,6 +29,9 @@ def show_found(result):
     for i in result:
         print(i)
 
+def show_all_info(base):
+    print(base)
+
 
 def get_base():
     with open('data.csv', "r") as file:
